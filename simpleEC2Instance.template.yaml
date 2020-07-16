@@ -1,12 +1,12 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: "A simple gibbs-special 'traditional' app to demonstrate an end-to-end developer experience using Cloud One Conformity"
+Description: "A simple gibbs-specialty 'traditional' app to demonstrate an end-to-end developer experience using Cloud One Conformity"
 Metadata:
   License: MIT-License
 Resources:
   ec2Instance:
     Type: AWS::EC2::Instance
     Properties:
-      KeyName: End2EndKeyPair
+      KeyName: gibb3
       ImageId: ami-0d6621c01e8c2de2c
       InstanceType: t2.nano
       IamInstanceProfile: !Ref iamInstanceProfile
